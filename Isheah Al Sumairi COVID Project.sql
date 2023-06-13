@@ -7,8 +7,6 @@ ORDER BY 3,4
 --FROM PortfolioProject..CovidVaccinations
 --ORDER BY 3,4
 
--- Select data that we will be using --
-
 SELECT Location, date, total_cases, new_cases, total_deaths, population
 FROM PortfolioProject..CovidDeaths
 ORDER BY 1,2
